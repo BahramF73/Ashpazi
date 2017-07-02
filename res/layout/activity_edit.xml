@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f7e9ac"
+    android:gravity="right">
+    <Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#bbbbbb">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#3f3fd8"
+            android:textSize="50sp"
+            android:text="تغییر دادن"
+            android:textDirection="rtl"
+            android:id="@+id/txtezafe"
+            android:layout_marginRight="10dp"/>
+    </Toolbar>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="right">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="اسم :"
+                android:layout_margin="5dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="#ecd77e"
+                android:singleLine="false"
+                android:textDirection="rtl"
+                android:paddingRight="2dp"
+                android:id="@+id/etesm"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="مواد لازم :"
+                android:layout_margin="5dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="#ecd77e"
+                android:singleLine="false"
+                android:textDirection="rtl"
+                android:paddingRight="2dp"
+                android:id="@+id/etmavadelazem"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="طرز تهیه :"
+                android:layout_margin="5dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="#ecd77e"
+                android:singleLine="false"
+                android:textDirection="rtl"
+                android:paddingRight="2dp"
+                android:id="@+id/ettarzetahiye" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="ذخیره کن"
+                android:id="@+id/btnedit"
+                android:background="@drawable/button"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

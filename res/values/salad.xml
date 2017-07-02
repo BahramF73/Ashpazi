@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="esme_salad">
+        <item>سالاد یونانی</item>
+        <!--<item>سالاد ماکارونی با کالباس</item>
+        <item>سالاد پیازچه و سیب زمینی آلمانی</item>-->
+    </string-array>
+    <string-array name="mavade_lazem">
+        <item>
+            کاهو ریز خرد شده : 1 لیوان\nگوجه فرنگی : 4 عدد\nخیار سبز : 3 عدد\nفلفل دلمه سبز : 1 عدد\nپیاز سفید : 1 عدد حلقه حلقه شده\nپنیر فتا : 2/1 لیوان(بصورت مربع های کوچک خرد شده)\nزیتون سیاه بی هسته : 4/1 لیوان
+        </item>
+        <!--<item>
+        </item>-->
+    </string-array>
+</resources>

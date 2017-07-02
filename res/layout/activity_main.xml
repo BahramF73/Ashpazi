@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.PC.PC.ashpazi.MainActivity"
+    android:orientation="vertical"
+    android:background="#f7e9ac">
+
+    <Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#bbbbbb">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical|right">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                android:textColor="#3f3fd8"
+                android:textSize="50sp"
+                android:id="@+id/txt_name"/>
+            <Button
+                android:id="@+id/btnadd"
+                android:layout_margin="10dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/untitled"
+                android:gravity="center"
+                android:layout_gravity="center" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:background="#65666d"
+                android:layout_margin="10dp"
+                android:text="لیست غذاها"
+                android:textSize="20sp"
+                android:padding="5dp"
+                android:id="@+id/allghaza"
+                />
+
+        </LinearLayout>
+    </Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/refrigerator"
+            android:background="@drawable/refri"
+            android:id="@+id/ref"/>
+
+    </LinearLayout>
+
+</LinearLayout>

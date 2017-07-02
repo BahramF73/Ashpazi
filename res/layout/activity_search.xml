@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.PC.PC.ashpazi.SearchActivity"
+    android:orientation="vertical"
+    android:background="#000000">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="2dp"
+        android:background="#f5e18c"
+        android:paddingBottom="3dp">
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:layout_margin="5dp"
+            android:background="@drawable/searchet"
+            android:padding="2dp"
+            android:textDirection="rtl"
+            android:id="@+id/searchet"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="جستجو"
+            android:background="@drawable/button"
+            android:layout_margin="5dp"
+            android:id="@+id/btnsearch"/>
+    </LinearLayout>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#f7e9ac"
+        android:id="@+id/searchlstv"></ListView>
+
+
+
+</LinearLayout>
